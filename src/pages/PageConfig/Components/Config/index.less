@@ -1,0 +1,89 @@
+.settingItem {
+  padding: 20px 0;
+  div[class='ant-form-item-label ant-col-xs-24 ant-col-sm-4'] {
+    text-align: left;
+  }
+}
+
+.dragContainer {
+  display: -webkit-flex; /* Safari */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  .dragItem {
+    flex-basis: auto;
+    width: 128px;
+    height: 128px;
+    margin: 10px 2px;
+    align-self: center;
+    text-align: center;
+    box-sizing: border-box;
+    position: relative;
+    border: dashed 1px #a0a0aa;
+    > img {
+      width: 126px;
+      height: 126px;
+    }
+    .dragTools {
+      display: none;
+      position: absolute;
+      line-height: 126px;
+      width: 126px;
+      left: 0;
+      background-color: rgba(251, 251, 251, 0.4);
+      z-index: 10px;
+      text-align: center;
+      color: red;
+      > *:last-of-type {
+        margin-left: 5px;
+      }
+    }
+    &:hover {
+      .dragTools {
+        display: block;
+        cursor: pointer;
+      }
+    }
+  }
+  .dragTitle {
+    height: 160px;
+  }
+  .describe {
+    line-height: 30px;
+  }
+  .addItem {
+    width: 128px;
+    height: 128px;
+    text-align: center;
+    border: dashed 1px #a0a0aa;
+    display: table;
+    font-size: 36px;
+    margin: 10px 2px;
+    .emptyUpload {
+      display: table-cell;
+      vertical-align: middle;
+      .uploadText {
+        font-size: 18px;
+      }
+    }
+  }
+}
+.addButton {
+  margin-left: 15px;
+}
+.categoryItem {
+  margin: 10px 0;
+  border: dashed 2px #a0a0aa;
+  border-radius: 5px;
+  position: relative;
+  .categoryTool {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 10;
+  }
+}

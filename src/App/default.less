@@ -1,0 +1,108 @@
+@import '~antd/lib/style/themes/default.less';
+
+body,
+html,
+div[id='app'] {
+  height: 100%;
+  width: 100%;
+  font-family: Arial,"PingFang SC","Hiragino Sans GB",STHeiti,"Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+}
+
+*[data-hidden-label='true'] {
+  display: none !important;
+}
+*[data-hidden-label='false'] {
+  display: block;
+}
+
+:global {
+  body,
+  html,
+  #app {
+    height: 100%;
+    width: 100%;
+  }
+
+  #app {
+    display: flex;
+  }
+
+  .ant-table-thead > tr > th,
+  .ant-table-tbody > tr > td {
+    word-break: break-word;
+    -ms-word-break: break-all;
+  }
+
+  .christmas.ant-btn-primary:before {
+    display: none !important;
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  .flex-1 {
+    flex: 1;
+  }
+
+  .flex-row {
+    flex-direction: row !important;
+  }
+
+  .flex-column {
+    flex-direction: column !important;
+  }
+
+  .align-item-center {
+    align-items: center;
+  }
+
+  .justify-content-center {
+    justify-content: center;
+  }
+
+  .page-component {
+    flex: 1;
+  }
+
+  .color-333 {
+    color: #333;
+  }
+
+  .letter-spacing-4 {
+    letter-spacing: 4px;
+  }
+
+  .f30 {
+    font-size: 30px;
+  }
+
+  .f24 {
+    font-size: 24px;
+  }
+
+  .f22 {
+    font-size: 22px;
+  }
+
+  .f20 {
+    font-size: 20px;
+  }
+
+
+  .f18 {
+    font-size: 18px;
+  }
+
+  .f16 {
+    font-size: 16px;
+  }
+
+  .f14 {
+    font-size: 14px;
+  }
+
+  .f12 {
+    font-size: 12px;
+  }
+}

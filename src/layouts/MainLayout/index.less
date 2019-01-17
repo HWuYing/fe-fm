@@ -1,0 +1,21 @@
+.layout-content {
+  background: #4a5f7c;
+
+  .left-slider {
+    width: @submenu-width;
+    overflow: hidden;
+  }
+
+  :global(.ant-layout-sider-children) {
+    width: @submenu-width;
+  }
+
+  :global(.ant-layout-header) {
+    background: @layout-header-bg;
+    padding: 0;
+  }
+
+  :global(.ant-layout-sider) {
+    background: @layout-sider-bg;
+  }
+}

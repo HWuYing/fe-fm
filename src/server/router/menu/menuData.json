@@ -1,0 +1,801 @@
+[
+  {
+    "id": "118377498038333440",
+    "name": "文章管理",
+    "path": "/article",
+    "icon": null,
+    "hasKey": "127.0.0.1:3101",
+    "sort": 1,
+    "children": [
+      {
+        "id": "118377677072199680",
+        "name": "文章管理",
+        "path": "/article/article-list",
+        "icon": null,
+        "hasKey": null,
+        "sort": 1,
+        "children": []
+      },
+      {
+        "id": "118378011144318976",
+        "name": "文章分类",
+        "path": "/article/category-list",
+        "icon": null,
+        "hasKey": null,
+        "sort": 1,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "217011240228810000",
+    "name": "订单管理",
+    "path": "/orders",
+    "icon": "line-chart",
+    "hasKey": "http://127.0.0.1:3103",
+    "sort": 1,
+    "children": [
+      {
+        "id": "130971524879089664",
+        "name": "装企订单",
+        "path": "/order/decor-list",
+        "icon": null,
+        "hasKey": null,
+        "sort": 1,
+        "children": []
+      },
+      {
+        "id": "125529456408743936",
+        "name": "方案订单",
+        "path": "/order/plan-list",
+        "icon": null,
+        "hasKey": null,
+        "sort": 1,
+        "children": []
+      },
+      {
+        "id": "125647310550421504",
+        "name": "普通订单--客服回访",
+        "path": "/order/general-service-list",
+        "icon": null,
+        "hasKey": "127.0.0.1:3103",
+        "sort": 1,
+        "children": []
+      },
+      {
+        "id": "125322607482851328",
+        "name": "集采订单--待处理",
+        "path": "/order/collect-list",
+        "icon": null,
+        "hasKey": null,
+        "sort": 1,
+        "children": []
+      },
+      {
+        "id": "125552909971050496",
+        "name": "集采订单--财务审核",
+        "path": "/order/collect-verify-list",
+        "icon": null,
+        "hasKey": null,
+        "sort": 1,
+        "children": []
+      },
+      {
+        "id": "125529616421441536",
+        "name": "三期订单-0元订单",
+        "path": "/order/zero-list",
+        "icon": null,
+        "hasKey": null,
+        "sort": 1,
+        "children": []
+      },
+      {
+        "id": "125529068146216960",
+        "name": "定制订单--待处理",
+        "path": "/order/custom-list",
+        "icon": null,
+        "hasKey": "127.0.0.1:3103",
+        "sort": 1,
+        "children": []
+      },
+      {
+        "id": "130049915815550976",
+        "name": "退款订单",
+        "path": "/order/refund-list",
+        "icon": null,
+        "hasKey": null,
+        "sort": 1,
+        "children": []
+      },
+      {
+        "id": "120894332664963072",
+        "name": "普通订单--待处理",
+        "path": "/order/general-list",
+        "icon": null,
+        "hasKey": "127.0.0.1:3103",
+        "sort": 1,
+        "children": []
+      },
+      {
+        "id": "131067663114805248",
+        "name": "门店订单",
+        "path": "/order/store-list",
+        "icon": null,
+        "hasKey": "127.0.0.1:3103",
+        "sort": 1,
+        "children": []
+      },
+      {
+        "id": "131142810902904832",
+        "name": "采购单管理",
+        "path": "/order/purchase-list",
+        "icon": null,
+        "hasKey": "127.0.0.1:3103",
+        "sort": 12,
+        "children": []
+      },
+      {
+        "id": "131143331281813504",
+        "name": "采购单审核",
+        "path": "/order/purchase-audit-list",
+        "icon": null,
+        "hasKey": "127.0.0.1:3103",
+        "sort": 13,
+        "children": []
+      },
+      {
+        "id": "131163152119676928",
+        "name": "配送管理",
+        "path": "/order/purchase-send-list",
+        "icon": null,
+        "hasKey": "127.0.0.1:3103",
+        "sort": 14,
+        "children": []
+      },
+      {
+        "id": "131163624947761152",
+        "name": "分拣订单",
+        "path": "/order/choose-list",
+        "icon": null,
+        "hasKey": "127.0.0.1:3103",
+        "sort": 15,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "721855649214110000",
+    "name": "方案管理",
+    "path": "/house",
+    "icon": "solution",
+    "hasKey": "127.0.0.1:3102",
+    "sort": 1,
+    "children": [
+      {
+        "id": "123016535404417024",
+        "name": "0元装管理",
+        "path": "/constraction/free-list",
+        "icon": null,
+        "hasKey": null,
+        "sort": 1,
+        "children": []
+      },
+      {
+        "id": "119495852486025216",
+        "name": "施工单配置",
+        "path": "/construction",
+        "icon": null,
+        "hasKey": "127.0.0.1:3102",
+        "sort": 1,
+        "children": [
+          {
+            "id": "119800348987052032",
+            "name": "模版配置",
+            "path": "/construction/template-list",
+            "icon": null,
+            "hasKey": null,
+            "sort": 1,
+            "children": []
+          },
+          {
+            "id": "119496087497072640",
+            "name": "工序配置",
+            "path": "/construction/procedure-list",
+            "icon": null,
+            "hasKey": null,
+            "sort": 1,
+            "children": []
+          },
+          {
+            "id": "119495990797393920",
+            "name": "阶段配置",
+            "path": "/construction/period-list",
+            "icon": null,
+            "hasKey": null,
+            "sort": 1,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "988160650490450000",
+        "name": "楼盘户型配置",
+        "path": "/house/houseType-list",
+        "icon": "",
+        "hasKey": null,
+        "sort": 1,
+        "children": []
+      },
+      {
+        "id": "722576650246180000",
+        "name": "楼盘管理",
+        "path": "/house/house-list",
+        "icon": "",
+        "hasKey": null,
+        "sort": 1,
+        "children": []
+      },
+      {
+        "id": "241155159298980000",
+        "name": "户型配置",
+        "path": "/houseConfig",
+        "icon": null,
+        "hasKey": null,
+        "sort": 1,
+        "children": [
+          {
+            "id": "301336643824040000",
+            "name": "人口管理",
+            "path": "/houseConfig/people-list",
+            "icon": "",
+            "hasKey": null,
+            "sort": 1,
+            "children": []
+          },
+          {
+            "id": "116196161449500000",
+            "name": "风格管理",
+            "path": "/houseConfig/style-list",
+            "icon": "",
+            "hasKey": null,
+            "sort": 1,
+            "children": []
+          },
+          {
+            "id": "969509161643740000",
+            "name": "预算管理",
+            "path": "/houseConfig/budget-list",
+            "icon": "",
+            "hasKey": null,
+            "sort": 2,
+            "children": []
+          },
+          {
+            "id": "597447162046090000",
+            "name": "户型管理",
+            "path": "/houseConfig/houseType-list",
+            "icon": "",
+            "hasKey": null,
+            "sort": 3,
+            "children": []
+          },
+          {
+            "id": "819319167665050000",
+            "name": "面积管理",
+            "path": "/houseConfig/area-list",
+            "icon": "",
+            "hasKey": null,
+            "sort": 4,
+            "children": []
+          },
+          {
+            "id": "213091167912720000",
+            "name": "标签管理",
+            "path": "/houseConfig/tag-list",
+            "icon": "",
+            "hasKey": null,
+            "sort": 5,
+            "children": []
+          },
+          {
+            "id": "398008168099240000",
+            "name": "空间管理",
+            "path": "/houseConfig/space-list",
+            "icon": "",
+            "hasKey": null,
+            "sort": 6,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "117284003086887415",
+        "name": "方案列表",
+        "path": "/plan-manage/list",
+        "icon": null,
+        "hasKey": null,
+        "sort": 3,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "180008098592380000",
+    "name": "财务管理",
+    "path": "/finance",
+    "icon": "rocket",
+    "hasKey": "127.0.0.1:3103",
+    "sort": 2,
+    "children": [
+      {
+        "id": "957196099100630000",
+        "name": "商品组合价格审核",
+        "path": "/finance/combination-audit-list",
+        "icon": null,
+        "hasKey": null,
+        "sort": 1,
+        "children": []
+      },
+      {
+        "id": "382556153020310000",
+        "name": "佣金提现",
+        "path": "/finance-manage/audit/commission",
+        "icon": null,
+        "hasKey": "127.0.0.1:3104",
+        "sort": 2,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "202219145758950000",
+    "name": "营销管理",
+    "path": "/marketing",
+    "icon": "money-collect",
+    "hasKey": "127.0.0.1:3103",
+    "sort": 3,
+    "children": [
+      {
+        "id": "857065476617280000",
+        "name": "数据屏参数配置",
+        "path": "/marketing/data-screen",
+        "icon": null,
+        "hasKey": "127.0.0.1:3103",
+        "sort": 1,
+        "children": []
+      },
+      {
+        "id": "127456602408570880",
+        "name": "爆款活动",
+        "path": "/marketing/explosive-act-list",
+        "icon": null,
+        "hasKey": "127.0.0.1:3103",
+        "sort": 1,
+        "children": []
+      },
+      {
+        "id": "123062686006611968",
+        "name": "0元装配置",
+        "path": "/marketing/free-dc-list",
+        "icon": null,
+        "hasKey": "127.0.0.1:3102",
+        "sort": 1,
+        "children": []
+      },
+      {
+        "id": "128160263204806656",
+        "name": "U豆管理",
+        "path": "/marketing/bean-using",
+        "icon": null,
+        "hasKey": "127.0.0.1:3103",
+        "sort": 1,
+        "children": []
+      },
+      {
+        "id": "590089505911430000",
+        "name": "优惠券管理",
+        "path": "/activity/coupon/list",
+        "icon": null,
+        "hasKey": "127.0.0.1:3104",
+        "sort": 3,
+        "children": []
+      },
+      {
+        "id": "969028473064370000",
+        "name": "门店活动配置",
+        "path": "/activity/store/list",
+        "icon": null,
+        "hasKey": "127.0.0.1:3104",
+        "sort": 5,
+        "children": []
+      },
+      {
+        "id": "442455794609240000",
+        "name": "单品促销",
+        "path": "/marketing/goods-pro-list",
+        "icon": null,
+        "hasKey": null,
+        "sort": 11,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "290838241663920000",
+    "name": "用户管理",
+    "path": "/user-manage",
+    "icon": "user",
+    "hasKey": "",
+    "sort": 6,
+    "children": [
+      {
+        "id": "795579242363390000",
+        "name": "菜单管理",
+        "path": "/user-manage/menu-list",
+        "icon": "team",
+        "hasKey": null,
+        "sort": 1,
+        "children": []
+      },
+      {
+        "id": "398083242226330000",
+        "name": "权限管理",
+        "path": "/user-manage/authority-list",
+        "icon": "pay-circle-o",
+        "hasKey": null,
+        "sort": 1,
+        "children": []
+      },
+      {
+        "id": "402893241943460000",
+        "name": "员工管理",
+        "path": "/user-manage/user-list",
+        "icon": "line-chart",
+        "hasKey": null,
+        "sort": 1,
+        "children": []
+      },
+      {
+        "id": "935279242090520000",
+        "name": "组织管理",
+        "path": "/user-manage/group-list",
+        "icon": "aliwangwang-o",
+        "hasKey": null,
+        "sort": 1,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "456803624575300000",
+    "name": "门店管理",
+    "path": "store-manage",
+    "icon": "book",
+    "hasKey": "127.0.0.1:3104",
+    "sort": 6,
+    "children": [
+      {
+        "id": "862531625000330000",
+        "name": "门店列表",
+        "path": "/store-manage/list",
+        "icon": null,
+        "hasKey": "127.0.0.1:3104",
+        "sort": 1,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "970243762380930000",
+    "name": "装企管理系统",
+    "path": "/enterprise-manage",
+    "icon": "home",
+    "hasKey": "127.0.0.1:3104",
+    "sort": 8,
+    "children": [
+      {
+        "id": "877034768101200000",
+        "name": "装企管理",
+        "path": "/enterprise-manage/enterprise-list",
+        "icon": null,
+        "hasKey": null,
+        "sort": 3,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "710071099536210000",
+    "name": "系统管理",
+    "path": "/system",
+    "icon": "tool",
+    "hasKey": null,
+    "sort": 9,
+    "children": [
+      {
+        "id": "124913914917412864",
+        "name": "UI分类管理",
+        "path": "/system/page-ui-list",
+        "icon": null,
+        "hasKey": null,
+        "sort": 1,
+        "children": []
+      },
+      {
+        "id": "124902805611208704",
+        "name": "页面配置",
+        "path": "/system/page-config-list",
+        "icon": null,
+        "hasKey": null,
+        "sort": 1,
+        "children": []
+      },
+      {
+        "id": "986998117962050000",
+        "name": "推送消息",
+        "path": "/system-manage/push-list",
+        "icon": "",
+        "hasKey": null,
+        "sort": 2,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "184671154610200000",
+    "name": "服务商管理",
+    "path": "/provider-manage",
+    "icon": "home",
+    "hasKey": "192.168.137.195:3003",
+    "sort": 9,
+    "children": [
+      {
+        "id": "790916154962990000",
+        "name": "服务商审核",
+        "path": "/provider-manage/ProviderApprove-list",
+        "icon": "",
+        "hasKey": null,
+        "sort": 1,
+        "children": []
+      },
+      {
+        "id": "827339155310070000",
+        "name": "服务商管理",
+        "path": "/provider-manage/provider-list",
+        "icon": "",
+        "hasKey": null,
+        "sort": 2,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "806750236199220000",
+    "name": "商品维护系统",
+    "path": "/goods",
+    "icon": "gift",
+    "hasKey": "127.0.0.1:3101",
+    "sort": 11,
+    "children": [
+      {
+        "id": "129190235852574720",
+        "name": "生成商品二维码",
+        "path": "/goods/create-code-img",
+        "icon": null,
+        "hasKey": null,
+        "sort": 1,
+        "children": []
+      },
+      {
+        "id": "123069601247891456",
+        "name": "供应商管理",
+        "path": "/supplier/supplier-list",
+        "icon": null,
+        "hasKey": null,
+        "sort": 1,
+        "children": []
+      },
+      {
+        "id": "877761771660170000",
+        "name": "商品前台分类",
+        "path": "/goods/front-category-list",
+        "icon": null,
+        "hasKey": null,
+        "sort": 1,
+        "children": []
+      },
+      {
+        "id": "646779320407250000",
+        "name": "商品前台配置",
+        "path": "/goods/front-category-config",
+        "icon": "",
+        "hasKey": null,
+        "sort": 1,
+        "children": []
+      },
+      {
+        "id": "183673094503890000",
+        "name": "SPU管理",
+        "path": "/goods/spu-table",
+        "icon": null,
+        "hasKey": null,
+        "sort": 1,
+        "children": []
+      },
+      {
+        "id": "554533239647460000",
+        "name": "商品类目",
+        "path": "/goods/category-table",
+        "icon": "",
+        "hasKey": null,
+        "sort": 1,
+        "children": []
+      },
+      {
+        "id": "299116239515180000",
+        "name": "商品品牌",
+        "path": "/goods/brands-table",
+        "icon": null,
+        "hasKey": null,
+        "sort": 2,
+        "children": []
+      },
+      {
+        "id": "806750236199220001",
+        "name": "商品属性",
+        "path": "/goods/attribute-list",
+        "icon": null,
+        "hasKey": null,
+        "sort": 3,
+        "children": []
+      },
+      {
+        "id": "659346095577080000",
+        "name": "待上架管理",
+        "path": "/goods/sku-prev-table",
+        "icon": null,
+        "hasKey": null,
+        "sort": 6,
+        "children": []
+      },
+      {
+        "id": "505354153185700000",
+        "name": "关联商品",
+        "path": "/goods/relation-list",
+        "icon": null,
+        "hasKey": null,
+        "sort": 7,
+        "children": []
+      },
+      {
+        "id": "372288095940910000",
+        "name": "已上架商品",
+        "path": "/goods/sku-after-table",
+        "icon": null,
+        "hasKey": null,
+        "sort": 7,
+        "children": []
+      },
+      {
+        "id": "459939096729870000",
+        "name": "库存管理",
+        "path": "/goods/store-list",
+        "icon": null,
+        "hasKey": null,
+        "sort": 8,
+        "children": []
+      },
+      {
+        "id": "136588242602341111",
+        "name": "商品价格管理",
+        "path": "/goods/price-manage",
+        "icon": null,
+        "hasKey": null,
+        "sort": 9,
+        "children": [
+          {
+            "id": "119846236560248832",
+            "name": "价格体系配置",
+            "path": "/goods/price-manage/price-system-list",
+            "icon": null,
+            "hasKey": null,
+            "sort": 1,
+            "children": []
+          },
+          {
+            "id": "118025717252210688",
+            "name": "配置比例维护",
+            "path": "/goods/price-manage/ratio-maintain-list",
+            "icon": null,
+            "hasKey": null,
+            "sort": 1,
+            "children": []
+          },
+          {
+            "id": "118017458769018880",
+            "name": "商品价格库",
+            "path": "/goods/price-manage/price-library-list",
+            "icon": null,
+            "hasKey": null,
+            "sort": 2,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "766763152960920000",
+        "name": "组合商品",
+        "path": "/goods/combination-list",
+        "icon": null,
+        "hasKey": null,
+        "sort": 11,
+        "children": []
+      },
+      {
+        "id": "140703750582540000",
+        "name": "服务管理",
+        "path": "/goods/service-manage",
+        "icon": null,
+        "hasKey": null,
+        "sort": 100,
+        "children": [
+          {
+            "id": "479547750843210000",
+            "name": "服务类型配置",
+            "path": "/goods/service-manage/service-type-list",
+            "icon": null,
+            "hasKey": null,
+            "sort": 101,
+            "children": []
+          },
+          {
+            "id": "409669751068840000",
+            "name": "商品服务费配置",
+            "path": "/goods/service-manage/service-charge-list",
+            "icon": null,
+            "hasKey": null,
+            "sort": 102,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "949671243220470000",
+    "name": "创客管理",
+    "path": "/distributor",
+    "icon": "aliwangwang-o",
+    "hasKey": "127.0.0.1:3104",
+    "sort": 13,
+    "children": [
+      {
+        "id": "485408987630560000",
+        "name": "创客管理",
+        "path": "/distributor-manage/manage-list",
+        "icon": null,
+        "hasKey": null,
+        "sort": 1,
+        "children": []
+      },
+      {
+        "id": "226466244079900000",
+        "name": "创客审核",
+        "path": "/distributor-manage/audit-list",
+        "icon": null,
+        "hasKey": null,
+        "sort": 1,
+        "children": []
+      },
+      {
+        "id": "494567986695310000",
+        "name": "分配设置",
+        "path": "/distributor-manage/commission/default-config",
+        "icon": null,
+        "hasKey": null,
+        "sort": 3,
+        "children": []
+      }
+    ]
+  }
+]

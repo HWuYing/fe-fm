@@ -1,0 +1,85 @@
+@color: #383838FF;
+
+.login-info {
+  margin: 0 auto;
+  width: 280px;
+  padding: 0 20px 30px 20px;
+
+  :global {
+    .ant-input {
+      padding-left: 44px !important;
+      background: #fff;
+      font-size: 14px;
+      border: 1px solid #eee;
+
+      &:focus {
+        box-shadow: none;
+        border-color: #eee !important;
+      }
+    }
+
+    .ant-form-explain {
+      padding-left: 4px;
+    }
+
+    .ant-input-prefix {
+      opacity: 1;
+    }
+  }
+
+  .login-btn {
+    width: 100%;
+    background: #E1001CFF;
+    border-color: #E1001CFF;
+    box-shadow: none;
+  }
+
+  .input-icon {
+    font-size: 18px;
+    color: @color;
+  }
+
+  .title {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+
+    & > h1 {
+      display: inline-block;
+      margin-bottom: 0;
+    }
+  }
+
+  .name {
+    display: inline-block;
+    line-height: 36px;
+    color: @color;
+    font-weight: 400;
+  }
+
+  .logo {
+    margin-right: 10px;
+    display: inline-block;
+    line-height: 26px;
+
+    img {
+      margin-top: -5px;
+      width: 50px;
+      height: 30px;
+    }
+  }
+
+  .system-name {
+    letter-spacing: 0.4em;
+    color: @color;
+  }
+
+  .link-list {
+    padding: 5px 0;
+    height: 50px;
+    line-height: 40px;
+    a {
+      color: #bdc3c6;
+    }
+  }
+}

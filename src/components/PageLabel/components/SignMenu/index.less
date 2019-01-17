@@ -1,0 +1,36 @@
+.sign-menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 120px;
+  border-radius: 5px;
+  background: #fff;
+  border: 1px solid #fafafa;
+  display: none;
+  overflow: hidden;
+  user-select: none;
+  z-index: 999;
+  box-shadow: 0 5px 50px 0 rgba(0,0,0,.15);
+
+  &:hover {
+    display: block;
+  }
+  &.sign-menu-active {
+    display: block;
+  }
+
+  &.sign-menu-hidden {
+    display: none;
+  }
+
+  a {
+    display: block;
+    padding: 4px 10px;
+    color: #666;
+
+    &:hover{
+      background: #4a5f7c;
+      color: #fff;
+    }
+  }
+}
